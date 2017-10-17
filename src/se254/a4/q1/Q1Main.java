@@ -33,7 +33,7 @@ public class Q1Main {
 		System.out.println("254 Assignment 4 Question 1");
 		System.out.println("Author Carl Tang");
 		System.out.println(CUTTINGLINE);
-		System.out.println("Please enter enter the name of a class to get a objlection of the class");
+		System.out.println("Please enter enter the name of a class to get a reflection of the class");
 
 		// load the class
 		Class<?> c = null;
