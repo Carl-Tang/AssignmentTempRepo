@@ -67,7 +67,7 @@ public class Q1Main {
 				// load the class if only one class is found
 				try {
 					ref = c.newInstance();
-					System.out.println("The class " + name + " has been successfully loaded.");
+					System.out.println("The class " + c.getName() + " has been successfully loaded.");
 					break;
 				} catch (InstantiationException | IllegalAccessException e) {
 					System.out.println("Sorry, it seems that a new instance of this class cannot be constructed.");
